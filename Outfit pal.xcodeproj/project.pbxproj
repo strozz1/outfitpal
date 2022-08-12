@@ -11,6 +11,8 @@
 		555FD23A28A5CE6700E14CA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555FD23928A5CE6700E14CA1 /* ContentView.swift */; };
 		555FD23C28A5CE6A00E14CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555FD23B28A5CE6A00E14CA1 /* Assets.xcassets */; };
 		555FD23F28A5CE6A00E14CA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555FD23E28A5CE6A00E14CA1 /* Preview Assets.xcassets */; };
+		555FD24628A5CF5C00E14CA1 /* tshirt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 555FD24528A5CF5C00E14CA1 /* tshirt.jpeg */; };
+		555FD24828A5EEC600E14CA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555FD24728A5EEC600E14CA1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		555FD23928A5CE6700E14CA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		555FD23B28A5CE6A00E14CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		555FD23E28A5CE6A00E14CA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		555FD24528A5CF5C00E14CA1 /* tshirt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tshirt.jpeg; path = ../../../../../Documents/Random/tshirt.jpeg; sourceTree = "<group>"; };
+		555FD24728A5EEC600E14CA1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 				555FD23728A5CE6700E14CA1 /* Outfit_palApp.swift */,
 				555FD23928A5CE6700E14CA1 /* ContentView.swift */,
 				555FD23B28A5CE6A00E14CA1 /* Assets.xcassets */,
+				555FD24528A5CF5C00E14CA1 /* tshirt.jpeg */,
 				555FD23D28A5CE6A00E14CA1 /* Preview Content */,
+				555FD24728A5EEC600E14CA1 /* HomeView.swift */,
 			);
 			path = "Outfit pal";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555FD24628A5CF5C00E14CA1 /* tshirt.jpeg in Resources */,
 				555FD23F28A5CE6A00E14CA1 /* Preview Assets.xcassets in Resources */,
 				555FD23C28A5CE6A00E14CA1 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555FD24828A5EEC600E14CA1 /* HomeView.swift in Sources */,
 				555FD23A28A5CE6700E14CA1 /* ContentView.swift in Sources */,
 				555FD23828A5CE6700E14CA1 /* Outfit_palApp.swift in Sources */,
 			);
@@ -264,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outfit pal/Preview Content\"";
@@ -275,11 +284,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.01;
 				PRODUCT_BUNDLE_IDENTIFIER = "strozzi.com.Outfit-pal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -293,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outfit pal/Preview Content\"";
@@ -304,11 +315,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.01;
 				PRODUCT_BUNDLE_IDENTIFIER = "strozzi.com.Outfit-pal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
